@@ -1,0 +1,19 @@
+{
+  "name": "peertube-theme-u2be",
+  "version": "0.0.1",
+  "description": "u2be is a style clone of the world's most popular video social network.",
+  "engine": {
+    "peertube": ">=3.2.0"
+  },
+  "keywords": [
+    "peertube",
+    "theme"
+  ],
+  "homepage": "https://codeberg.org/deadsuperhero/peertube-theme-u2be/",
+  "author": "deadsuperhero",
+  "bugs": "https://codeberg.org/deadsuperhero/peertube-theme-u2be/issues",
+  "staticDirs": {},
+  "css": [
+    "assets/style.css"
+  ]
+}
