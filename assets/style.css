@@ -1,0 +1,61 @@
+body {
+    --mainColor: #d02b2b;
+    --mainColorLighter: #f14141;
+    --mainColorLightest: #ff6868;
+    --mainHoverColor: #df2323;
+    --mainBackgroundColor: #f9f9f9;
+    --mainForegroundColor: #363636;
+    --secondaryColor: #148a99;
+    --greyForegroundColor: #636363;
+    --greyBackgroundColor: #e5e5e5;
+    --menuBackgroundColor: #fff;
+    --menuForegroundColor: #363636;
+    --submenuBackgroundColor: #f7f7f7;
+    --channelBackgroundColor: #f1f1f1;
+    --inputForegroundColor: #000;
+    --inputBackgroundColor: #fff;
+    --inputPlaceholderColor: #898989;
+    --textareaForegroundColor: #000;
+    --textareaBackgroundColor: #fff;
+    --markdownTextareaBackgroundColor: #efefef;
+    --actionButtonColor: #585858;
+    --supportButtonBackgroundColor: #0000;
+    --supportButtonColor: var(--actionButtonColor);
+    --supportButtonHeartColor: #e83e8c;
+    --activatedActionButtonColor: #000;
+}
+
+.menu-link.active {
+    background-color: var(--mainColor) !important;
+    color: #fff;
+    font-weight: 600;
+}
+
+.menu-link .active .feather {
+    color: #fff !important;
+}
+
+a.menu-link.active svg {
+    color: #fff !important;
+}
+
+a.menu-link:hover, a.menu-link.focus-visible {
+    background-color: var(--greyForegroundColor);
+}
+
+.video-js.vjs-peertube-skin .vjs-control-bar .vjs-progress-control .vjs-slider .vjs-play-progress {
+    background: var(--mainColor);
+}
+
+.logged-in-username {
+    color: var(--greyForegroundColor);
+}
+
+.logged-in-menu {
+    border-top: 1px solid var(--greyBackgroundColor);
+}
+
+.active-filter {
+    background-color: #000;
+    color: #fff;
+}
